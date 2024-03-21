@@ -1,4 +1,4 @@
-# Copy Cardano Ecosystem Analysis
+# Cardano Ecosystem Analysis
 
 **Objective:** To deliver a comprehensive analysis of the Cardano ecosystem, identifying existing gaps and opportunities for optimization and expansion.
 
