@@ -275,49 +275,7 @@ HaskLedger is not just a toolkit; it's a vision for a more accessible, efficient
     Interoperability and seamless integration with other systems and blockchains are essential for the widespread adoption of blockchain technology. HaskLedger’s design principles, which emphasize easy integration and interoperability, position Cardano as a versatile platform capable of interacting with a multitude of external systems. This opens up a plethora of use cases, from cross-chain applications to seamless interactions with traditional financial systems, thereby significantly expanding Cardano’s utility and appeal.
     
 
-**Software and Hardware Specifications**
 
-**Software Specifications:**
-
-Core Development Environment
-
-- **Operating System:** Linux-based distributions (Ubuntu 20.04 LTS, Debian 10) are recommended for their stability and wide support. Qubes OS is highlighted for its robust safety through isolation and compartmentalization capabilities.
-- **Programming Languages:** Haskell for smart contract development with a focus on utilizing Haskell's efficient parallel processing and lazy evaluation strategies. Plutus Core compatibility/or equivalent is essential for seamless integration with the Cardano blockchain.
-- **Development Tools:**
-    - **The Glasgow Haskell Compiler (GHC):** For compiling Haskell code.
-    - **Cabal/Stack:** For project and dependency management.
-    - **Git/Source hut:** For version control and collaboration.
-
-### Blockchain and Containerization Tools
-
-- **Cardano Node and CLI:** For direct interaction with the Cardano blockchain, managing wallets, transactions, and deploying smart contracts.
-- **Qubes OS:** Recommended for containerization, ensuring consistent development, testing, and deployment environments.
-- **Nix:** For deterministic builds, package management, and efficient caching, ensuring reproducibility and consistency across all development stages.
-
-## Hardware Specifications
-
-### Recommended Development Hardware
-
-- **Processor:** Intel Core i5 (8th generation or newer) or equivalent AMD processor with at least 4 cores for optimal performance.
-- **Memory:** 8GB RAM minimum, with 16GB recommended for development efficiency.
-- **Storage:** 256GB SSD minimum for faster read/write speeds, improving overall development experience.
-- **Network:** Stable, high-speed internet connection for blockchain synchronization and remote collaboration.
-
-### Advanced Testing and Deployment
-
-- **Open-Source Hardware Platforms:** RISC-V and Pine64 boards for testing HaskLedger’s compatibility and performance, promoting decentralized and accessible infrastructure.
-
-### Virtualization and Security
-
-- **Qubes OS:** Utilizes Xen virtualization for creating secure, isolated VMs, enhancing P2P node security through distinct compartmentalization and network configurations.
-
-## Deployment and Safety
-
-- **NixOS and Unikernels:** Emphasized for minimizing the attack surface, ensuring safety and resource efficiency. NixOS facilitates immutable infrastructure and seamless deployment, while unikernels offer isolation and minimized overhead.
-
-## Integration and Interoperability
-
-- **Cross-Platform Deployment:** Leveraging Nix’s cross-compilation features to support deployment on various architectures, enhancing HaskLedger’s adaptability and reach.
 
 **References**
 
